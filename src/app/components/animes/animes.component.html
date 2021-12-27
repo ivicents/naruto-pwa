@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Animes</h1>
+    <div [@listAnimation]="animes.length" class="animes">    
+        <mat-card *ngFor="let anime of animes" [routerLink]="['image', anime.mal_id]">
+            <mat-card-title>{{anime.mal_id}} - {{anime.title}}</mat-card-title>
+            <mat-card-content>{{anime.synopsis}}</mat-card-content>
+        </mat-card>
+    </div>
+    <div *ngIf="isLoading" style="display: flex; justify-content: center; align-items: center; background: white;">
+        <mat-progress-spinner 
+            color="primary" 
+            mode="indeterminate">
+        </mat-progress-spinner>
+    </div>
+</div>

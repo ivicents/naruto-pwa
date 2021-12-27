@@ -1,0 +1,29 @@
+<div class="container">
+    <div *ngIf="anime" class="content">
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  {{anime.title}}
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Show all details
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+                <p><strong>Identifier: </strong>{{anime.mal_id}}</p>
+                <p><strong>Episodes: </strong>{{anime.episodes}}</p>
+                <p><strong>Rank: </strong>{{anime.rank}}</p>
+                <p><strong>Synopsis: </strong>{{anime.synopsis}}</p>
+                <img style="width: 50%; height: 50%;" class="rounded" src="{{anime.image_url}}" alt="anime image">
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+    <div class="buttons">
+        <button mat-button color="warn" routerLink="/">Back</button>
+    </div>
+</div>
