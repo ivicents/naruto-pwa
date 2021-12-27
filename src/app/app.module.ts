@@ -17,7 +17,7 @@ import { environment } from '../environments/environment';
 @NgModule({
   declarations: [AppComponent, AnimesComponent, AnimeComponent],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
