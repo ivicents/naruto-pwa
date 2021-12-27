@@ -1,0 +1,98 @@
+{
+  "configVersion": 1,
+  "timestamp": 1640608635984,
+  "index": "C:/Program Files/Git/naruto-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "C:/Program Files/Git/naruto-pwa/favicon.ico",
+        "C:/Program Files/Git/naruto-pwa/index.html",
+        "C:/Program Files/Git/naruto-pwa/main.52a11b337509e63bf11e.js",
+        "C:/Program Files/Git/naruto-pwa/manifest.webmanifest",
+        "C:/Program Files/Git/naruto-pwa/polyfills.797e1178f373b8286233.js",
+        "C:/Program Files/Git/naruto-pwa/runtime.4c8757c809b2aa3a0d48.js",
+        "C:/Program Files/Git/naruto-pwa/styles.aed625f13435cbb527ed.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-128x128.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-144x144.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-152x152.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-192x192.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-384x384.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-512x512.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-72x72.png",
+        "C:/Program Files/Git/naruto-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "anime-api",
+      "patterns": [
+        "https:\\/\\/api\\.jikan\\.moe\\/v3\\/.*",
+        "https:\\/\\/cdn\\.myanimelist\\.net\\/images\\/anime\\/(?:.+\\/)?.*",
+        "https:\\/\\/cdn\\.myanimelist\\.net\\/images\\/anime\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 36000000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-128x128.png": "e942a326df1d4b7f223cc3755e1305099c72ce88",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-144x144.png": "2972b1ddfb9828f5dc54518a04beba2e68d232ef",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-152x152.png": "a0975540ffa0df9086c70c5a258521d20c9585f8",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-192x192.png": "9fc9a6068d7fd165b40eb5c2e1068c261287d6af",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-384x384.png": "5b03bdf2049598a96675488efdf1a2e0f7cef733",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-512x512.png": "8ec955ce6758637c4c35c83a142bce9f17a0e183",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-72x72.png": "af58c05613fa4d25c63cce0b64118272a3be5bf4",
+    "C:/Program Files/Git/naruto-pwa/assets/icons/icon-96x96.png": "edee48b72287474236c39c58fdacb8e70930e66b",
+    "C:/Program Files/Git/naruto-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "C:/Program Files/Git/naruto-pwa/index.html": "5fc6466fbb42a30fef8f15c967fad5ddc1b158e3",
+    "C:/Program Files/Git/naruto-pwa/main.52a11b337509e63bf11e.js": "436b3d6cbc4d550318abfa04590ab31d3483a1f6",
+    "C:/Program Files/Git/naruto-pwa/manifest.webmanifest": "2ebf6107a835d2ecc6e485ba0c7afa8c90156a18",
+    "C:/Program Files/Git/naruto-pwa/polyfills.797e1178f373b8286233.js": "80bfd5ca5969df595095ae4c03d22ff265c61bdc",
+    "C:/Program Files/Git/naruto-pwa/runtime.4c8757c809b2aa3a0d48.js": "f0cee4813706f0e9dc49484bb2cd21268745a5bd",
+    "C:/Program Files/Git/naruto-pwa/styles.aed625f13435cbb527ed.css": "3cc01d37577e36353d9519185a04250faf63c5fe"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
